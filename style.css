@@ -30,6 +30,22 @@ margin: 10px;}
     width: 20vw;
 }
 
+#cerro{
+    width: 20vw;
+}
+
 *{
     font-weight: 600;
+}
+
+.contenedor-centrado{
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+#pond{
+    display: flex;
+    justify-content: flex-end;
 }
