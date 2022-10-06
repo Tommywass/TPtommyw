@@ -25,3 +25,11 @@ body{background-color: beige;}
 #padding-interno
 {padding: 10px;
 margin: 10px;}
+
+#imagen-responsive{
+    width: 20vw;
+}
+
+*{
+    font-weight: 600;
+}
