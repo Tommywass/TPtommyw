@@ -2,13 +2,13 @@
 
 /* llamar a la etiqueta directo*/
 
+*{
+    font-weight: 600;
+}
+
 body{background-color: beige;}
 
-
-
 .titular{ background-color: lightblue; color: rgb(255, 0, 0) (158, 139, 139); font-size: 50px;}
-
-
 
 #titular3{ background-color: aquamarine; color: red;}
 
@@ -19,25 +19,28 @@ body{background-color: beige;}
 
 #whatsapp{
     position: static;
-
 }
 
-#padding-interno
+#descripcion-pais
 {padding: 10px;
 margin: 10px;}
 
-.imagen-contenedor{
-    width: 20vw;
-}
-
-*{
-    font-weight: 600;
+.contenedor-centrado{
+    width: 50vw;
 }
 
 .contenedor-centrado{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 150px 200px 200px;
     justify-content: center;
     align-items: center;
-}
+    column-gap: 50px;
+    }
 
+.contenedor-centrado{
+        background-color:aquamarine;
+        border: 10px solid rgba(0, 0, 0, 0.8);
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+    }
